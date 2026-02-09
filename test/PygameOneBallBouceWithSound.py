@@ -1,5 +1,5 @@
 # Credit for original code goes to IrvKalb on GitHub(Link: https://github.com/IrvKalb/Object-Oriented-Python-Code).
-# Citation 2: Kalb Irv.
+# Credit also goes to Irv Kalb's book, Object-Oriented Python 
 import pygame
 from pygame.locals import *
 import sys
