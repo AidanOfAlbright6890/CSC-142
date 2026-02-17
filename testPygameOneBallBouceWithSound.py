@@ -28,7 +28,7 @@ clock = pygame.time.Clock()
 oScoreDisplay = pygwidgets.DisplayText(window, (10, USABLE_WINDOW_HEIGHT + 25))
  
 # 4 - Load assets: image(s), sound(s),  etc.
-ballImage = pygame.image.load('assignments/15_final_game/CSC142/Catch_The_Ball.py/images/ball.png')
+ballImage = pygame.image.load('ball.png')
 bounceSound = pygame.mixer.Sound('assignments/15_final_game/CSC142/Catch_The_Ball.py/sounds/boing.wav')
 pygame.mixer.music.load('assignments/15_final_game/CSC142/Catch_The_Ball.py/sounds/background.mp3')
 pygame.mixer.music.play(-1, 0.0)
