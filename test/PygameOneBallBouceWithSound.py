@@ -112,6 +112,7 @@ while True:
     myFont = pygame.font.SysFont('Comic SansMS', 30)
     textSurface = myFont.render('Some text', True, (0, 0, 0))
     window.blit(textSurface, (10, 10))
+ 
     
 
     
