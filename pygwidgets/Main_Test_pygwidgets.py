@@ -1,5 +1,5 @@
-#  Demo of pygwidgets capabilities
-#
+# Credit for original code goes to Irv Kalb from GitHub(Link: https://github.com/IrvKalb/pygwidgets)
+# Demo of pygwidgets capabilities
 #  4/17  Developed by Irv Kalb
 
 # 1 - Import libraries
