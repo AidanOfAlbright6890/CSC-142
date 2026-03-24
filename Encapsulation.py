@@ -28,7 +28,7 @@ print(truck.cost_per_mile)
 print("motorcycle")
 print(motorcycle.range)
 print(motorcycle.cost_per_mile)
-print("bust")
+print("bus")
 print(bus.range)
 print(bus.cost_per_mile)
 
