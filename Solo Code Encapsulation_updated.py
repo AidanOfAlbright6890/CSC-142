@@ -14,21 +14,27 @@ class Vehicle():
     def cost_per_mile(self):
         return self.cost_per_gallon * self.miles_per_gallon
     
+    @property
+    def getType(self):
+        return self.vehicle
     
-car = Vehicle("car", 12, 3.70, 26)
-truck = Vehicle("truck", 20, 5.00, 6.5)
-motorcycle = Vehicle("motorcycle", 3, 3.50, 55)
-bus = Vehicle("bus", 100, 2.80, 3.5)
-print("car")
-print(car.range)
-print(car.cost_per_mile)
-print("truck")
-print(truck.range)
-print(truck.cost_per_mile)
-print("motorcycle")
-print(motorcycle.range)
-print(motorcycle.cost_per_mile)
-print("bus")
-print(bus.range)
-print(bus.cost_per_mile)
+    
+ovehicle1 = Vehicle('car', 12, 3.70, 26)
+ovehicle2 = Vehicle("truck", 20, 5.00, 6.5)
+ovehicle3 = Vehicle("motorcycle", 3, 3.50, 55)
+ovehicle4 = Vehicle("bus", 100, 2.80, 3.5)
+print(ovehicle1.getType)
+print(ovehicle1.range)
+print(ovehicle1.cost_per_mile)
+print(ovehicle2.getType)
+print(ovehicle2.range)
+print(ovehicle2.cost_per_mile)
+print(ovehicle3.getType)
+print(ovehicle3.range)
+print(ovehicle3.cost_per_mile)
+print(ovehicle4.getType)
+print(ovehicle4.range)
+print(ovehicle4.cost_per_mile)
+
+
 
